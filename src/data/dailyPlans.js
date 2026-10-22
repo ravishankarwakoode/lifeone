@@ -94,3 +94,22 @@ export const notifications = [
     read: true
   }
 ];
+
+export const dashboardMetrics = [
+  { label: 'Trips today', value: '4', change: '+1 vs yesterday', color: '#4F46E5' },
+  { label: 'Minutes saved', value: '26', change: 'Better than last week', color: '#10B981' },
+  { label: 'Tasks done', value: '5/7', change: '2 remaining', color: '#F59E0B' }
+];
+
+export const upcomingTrips = [
+  { id: 't1', title: 'School run', time: '08:40', duration: '18 min', status: 'On time' },
+  { id: 't2', title: 'Office commute', time: '09:20', duration: '25 min', status: 'Safe route' },
+  { id: 't3', title: 'Grocery stop', time: '18:10', duration: '12 min', status: 'Low traffic' }
+];
+
+export const calendarEvents = [
+  { id: 'e1', day: 'Mon', title: 'Team meeting', time: '09:00', color: '#4F46E5' },
+  { id: 'e2', day: 'Tue', title: 'Lunch with family', time: '12:30', color: '#10B981' },
+  { id: 'e3', day: 'Wed', title: 'Grocery run', time: '18:00', color: '#F59E0B' },
+  { id: 'e4', day: 'Thu', title: 'Doctor visit', time: '13:45', color: '#EF4444' }
+];
